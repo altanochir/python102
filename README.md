@@ -1,6 +1,6 @@
 # 🐍 Python 102: Python Хэлийг Алхам Алхмаар Сурах Бүрэн Хөтөч
 
-Энэхүү хадгалах сан (repository) нь Python хэлийг анхан шатнаас эхлэн ахисан шатны сэдвүүд (өгөгдлийн шинжилгээ, тоглоом хөгжүүлэлт, машин сургалт) хүртэл Монгол хэл дээр практик жишээ, дасгал ажлын хамтаар сурахад зориулагдсан цогц гарын авлага юм.
+Энэхүү repo нь Python хэлийг анхан шатнаас эхлэн ахисан шатны сэдвүүд (өгөгдлийн шинжилгээ, тоглоом хөгжүүлэлт, машин сургалт) хүртэл Монгол хэл дээр практик жишээ, дасгал ажлын хамтаар сурахад зориулагдсан цогц гарын авлага юм.
 
 Ялангуяа **JavaScript (Node.js)** болон **Visual Basic** гэх мэт өөр програмчлалын хэлний туршлагатай хөгжүүлэгчдэд зориулж синтаксын болон концепцийн харьцуулсан тайлбаруудыг оруулснаараа онцлогтой.
 
@@ -17,6 +17,7 @@
 | [📁 03_data_analysis](file:///c:/work/python102/03_data_analysis) | **Өгөгдлийн Шинжилгээ** | `NumPy` (математик, матриц), `Pandas` (өгөгдлийн хүснэгт), `Matplotlib/Seaborn` (өгөгдлийн дүрслэл, график). |
 | [📁 04_game_dev](file:///c:/work/python102/04_game_dev) | **Тоглоом Хөгжүүлэлт** | `Pygame` ашиглан 2D тоглоомууд (Pong, Snake, Space Invaders, Tetris, Chess, Platformer) хийх арга зүй. |
 | [📁 05_machine_learning](file:///c:/work/python102/05_machine_learning) | **Машин Сургалт (ML/AI)** | Шугаман регресс, хиймэл мэдрэлийн сүлжээ, `TensorFlow` болон `PyTorch` сангуудын суурь ойлголтууд. |
+| [📁 06_ai_agents](file:///c:/work/python102/06_ai_agents) | **AI Агентууд (LangChain, LangGraph)** | Промпт загварчлах, LCEL хэлхээ, Төлөвт суурилсан хуваарилагч (Router) Агент хөгжүүлэлт. |
 | [📄 calculator.py](file:///c:/work/python102/calculator.py) | **Бодит Төсөл** | `Tkinter` ашиглан бичсэн бүрэн ажиллагаатай тооны машин (Calculator). |
 
 ---
@@ -131,6 +132,17 @@ python calculator.py
    - [03_pytorch_basics.py](file:///c:/work/python102/05_machine_learning/03_pytorch_basics.py) - PyTorch-ийн үндсэн үйлдлүүд болон Dynamic Computation Graph.
    - [04_classification_tensorflow.py](file:///c:/work/python102/05_machine_learning/04_classification_tensorflow.py) - TensorFlow Keras ашиглан зураг ангилах (Classification) сүлжээ угсрах.
    - [05_classification_pytorch.py](file:///c:/work/python102/05_machine_learning/05_classification_pytorch.py) - PyTorch ашиглан мэдрэлийн сүлжээ үүсгэж, сургах, шалгах алхмууд.
+
+#### 🤖 Чиглэл Г: AI Агентууд (`06_ai_agents`)
+Орчин үеийн ЛЛМ-ийг удирдах, автоматжуулсан олон алхамт ажиллагаатай Агентууд (AI Agents) угсарч сурна.
+
+1. Сангуудыг суулгах:
+   ```bash
+   pip install langchain langchain-core langgraph
+   ```
+2. Хичээлүүд:
+   - [01_langchain_basics.py](file:///c:/work/python102/06_ai_agents/01_langchain_basics.py) - ChatPromptTemplate, LCEL (`|` оператор) хэрэглээ, MockChatModel оффлайн горим.
+   - [02_langgraph_basics.py](file:///c:/work/python102/06_ai_agents/02_langgraph_basics.py) - State, Nodes, Edges, нөхцөлт шилжилт бүхий хэрэглэгч рүү чиглүүлэгч (Router) агент угсрах.
 
 ---
 
