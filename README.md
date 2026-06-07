@@ -18,6 +18,7 @@
 | [📁 04_game_dev](file:///c:/work/python102/04_game_dev) | **Тоглоом Хөгжүүлэлт** | `Pygame` ашиглан 2D тоглоомууд (Pong, Snake, Space Invaders, Tetris, Chess, Platformer) хийх арга зүй. |
 | [📁 05_machine_learning](file:///c:/work/python102/05_machine_learning) | **Машин Сургалт (ML/AI)** | Шугаман регресс, хиймэл мэдрэлийн сүлжээ, `TensorFlow` болон `PyTorch` сангуудын суурь ойлголтууд. |
 | [📁 06_ai_agents](file:///c:/work/python102/06_ai_agents) | **AI Агентууд (LangChain, LangGraph)** | Промпт загварчлах, LCEL хэлхээ, Төлөвт суурилсан хуваарилагч (Router) Агент хөгжүүлэлт. |
+| [📁 07_web_api](file:///c:/work/python102/07_web_api) | **Web API (FastAPI)** | FastAPI ашиглан REST API үүсгэх, Pydantic-оор Request Body баталгаажуулах, CRUD үйлдлүүд хийх. |
 | [📄 calculator.py](file:///c:/work/python102/calculator.py) | **Бодит Төсөл** | `Tkinter` ашиглан бичсэн бүрэн ажиллагаатай тооны машин (Calculator). |
 
 ---
@@ -141,8 +142,19 @@ python calculator.py
    pip install langchain langchain-core langgraph
    ```
 2. Хичээлүүд:
-   - [01_langchain_basics.py](file:///c:/work/python102/06_ai_agents/01_langchain_basics.py) - ChatPromptTemplate, LCEL (`|` оператор) хэрэглээ, MockChatModel оффлайн горим.
-   - [02_langgraph_basics.py](file:///c:/work/python102/06_ai_agents/02_langgraph_basics.py) - State, Nodes, Edges, нөхцөлт шилжилт бүхий хэрэглэгч рүү чиглүүлэгч (Router) агент угсрах.
+    - [01_langchain_basics.py](file:///c:/work/python102/06_ai_agents/01_langchain_basics.py) - ChatPromptTemplate, LCEL (`|` оператор) хэрэглээ, MockChatModel оффлайн горим.
+    - [02_langgraph_basics.py](file:///c:/work/python102/06_ai_agents/02_langgraph_basics.py) - State, Nodes, Edges, нөхцөлт шилжилт бүхий хэрэглэгч рүү чиглүүлэгч (Router) agent-ийн угсралт.
+
+#### 🌐 Чиглэл Д: Web API Хөгжүүлэлт (`07_web_api`)
+FastAPI болон Uvicorn ашиглан асинхрон REST API үүсгэх, Pydantic-оор хүсэлтийн өгөгдлийг баталгаажуулах, CRUD үйлдлүүд хэрэгжүүлж сурна.
+
+1. Сангуудыг суулгах:
+   ```bash
+   pip install fastapi uvicorn
+   ```
+2. Хичээлүүд:
+   - [README.md](file:///c:/work/python102/07_web_api/README.md) - FastAPI-ийн үндсэн давуу талууд, Express.js-тэй харьцуулсан хүснэгт болон суулгах заавар.
+   - [01_fastapi_basics.py](file:///c:/work/python102/07_web_api/01_fastapi_basics.py) - Path/Query parameters, Pydantic BaseModel, CRUD (Get, Post, Put, Delete) вэб үйлчилгээ.
 
 ---
 
